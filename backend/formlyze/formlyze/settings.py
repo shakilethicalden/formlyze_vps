@@ -148,23 +148,24 @@ WSGI_APPLICATION = 'formlyze.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql', 
+        'NAME': 'formlyze_db',
+        'USER': 'formlyze_user',
+        'PASSWORD': 'formlyze123db',
+        'HOST': '168.231.68.138',
+        'PORT': '3306', 
     }
 }
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': os.getenv('SERVER_DB_NAME'),
-#         'USER': os.getenv('SERVER_DB_USER'),
-#         'PASSWORD': os.getenv('SERVER_DB_PASSWORD'),
-#         'HOST': os.getenv('SERVER_DB_HOST'),
-#         'PORT': os.getenv('SERVER_DB_PORT', '3306'),
-#     }
-# }
 
 
 # Password validation
