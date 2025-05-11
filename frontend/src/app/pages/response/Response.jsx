@@ -50,7 +50,7 @@ const Response = ({ data = [], isLoading, error, title,id }) => {
         // Create a hidden iframe
         const iframe = document.createElement('iframe');
         iframe.style.display = 'none';
-        iframe.src = `http://168.231.68.138/api/form/response/${id}/export/`;
+        iframe.src = `https://formlyze.mrshakil.com/api/form/response/${id}/export/`;
         document.body.appendChild(iframe);
         
         // Remove the iframe after a short delay

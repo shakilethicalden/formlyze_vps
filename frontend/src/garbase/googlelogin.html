@@ -12,7 +12,7 @@
 
     <script>
        //dynamically get credentail from django server
-        fetch('http://168.231.68.138/api/google/oauth/config/')
+        fetch('https://formlyze.mrshakil.com/api/google/oauth/config/')
             .then(response => response.json())
             .then(data => {
                 const googleClientId = data.google_client_id;

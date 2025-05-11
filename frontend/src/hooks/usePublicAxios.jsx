@@ -4,7 +4,7 @@ import axios from 'axios';
 
 
 const publicAxios = axios.create({
-    baseURL:'http://168.231.68.138/api',
+    baseURL:'https://formlyze.mrshakil.com/api',
     headers: {
         'Content-Type': 'application/json',
       }
