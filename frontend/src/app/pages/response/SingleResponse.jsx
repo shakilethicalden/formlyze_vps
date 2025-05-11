@@ -373,7 +373,7 @@ console.log(data, 'ha data');
                       </div>
                     </div>
                     <a 
-                      href={`https://formlyze.mrshakil.com/media/images/${field.response}`} 
+                      href={`http://127.0.0.1:8000/media/images/${field.response}`} 
                       download
                       className="text-sm bg-white px-3 py-1.5 rounded-lg border border-[#CCCAEC] text-[#1A1466] hover:bg-[#E9E9FD] flex items-center"
                     >
@@ -475,7 +475,7 @@ console.log(data, 'ha data');
                   <div className="bg-[#F4F4FF] p-5 rounded-lg border border-[#CCCAEC]">
                     <div className="border border-[#CCCAEC] rounded-lg p-3 bg-white">
                       <img 
-                        src={`https://formlyze.mrshakil.com/media/images/${field.response}`} 
+                        src={`http://127.0.0.1:8000/media/images/${field.response}`} 
                         alt="Signature" 
                         className="max-h-32 mx-auto"
                       />

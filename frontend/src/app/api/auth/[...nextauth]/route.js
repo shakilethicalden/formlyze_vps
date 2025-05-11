@@ -20,7 +20,7 @@ const formatUserData = (userData, id, token) => ({
 const fetchUserWithToken = async (id, token) => {
   try {
     const response = await axios.get(
-      `https://formlyze.mrshakil.com/api/users/list/${id}/`,
+      `http://168.231.68.138/api/users/list/${id}/`,
       {
         headers: { 
           'Authorization': `Token ${token}`,
@@ -48,7 +48,7 @@ const fetchUserWithToken = async (id, token) => {
 const handleCredentialsAuth = async (username, password) => {
   try {
     const loginResponse = await axios.post(
-      'https://formlyze.mrshakil.com/api/users/login/',
+      'http://168.231.68.138/api/users/login/',
       { username, password },
       {
         headers: {

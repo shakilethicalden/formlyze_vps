@@ -864,7 +864,7 @@ export  const template = [
       {
         "id": 245118,
         "creator_name": "Unknown",
-        "form_link": "https://formlyze.mrshakil.com/api/form/columbia-suicide-severity-rating-scale-(c-ssrs)-",
+        "form_link": "http://168.231.68.138/api/form/columbia-suicide-severity-rating-scale-(c-ssrs)-",
         "title": "Columbia Suicide Severity Rating Scale (C-SSRS)",
         "description": "The Columbia-Suicide Severity Rating Scale (C-SSRS) is a questionnaire used for suicide assessment developed by multiple institutions, including Columbia University, with NIMH support. The scale is evidence-supported and is part of a national and international public health initiative involving the assessment of suicidality.",
         "image": "https://prod-api.formdr.com/file/FmSSJ-tUUQkbvNkHWV00ikAvwFCwBFCy",
@@ -3419,7 +3419,7 @@ export  const template = [
   {
     "id": 428362,
     "creator_name": "unknown",
-    "form_link": "https://formlyze.mrshakil.com/api/form/strengths-and-difficulties-questionnaire",
+    "form_link": "http://168.231.68.138/api/form/strengths-and-difficulties-questionnaire",
     "title": "Strengths and Difficulties Questionnaire",
     "description": "The Strengths and Difficulties Questionnaire (SDQ) is a brief behavioral screening tool designed to assess the emotional and social well-being of children and adolescents. Covering areas such as emotional symptoms, conduct issues, hyperactivity, peer relationships, and prosocial behavior, the SDQ helps identify strengths and difficulties. It is particularly beneficial for medical practitioners, as it aids in diagnosing mental health concerns, guiding treatment plans, and monitoring the progress of interventions to support overall development and well-being.",
     "image": "https://prod-api.formdr.com/file/ydRPqoXfEnzYrv8aMGIsBE05IKxw7tR4",
@@ -3709,7 +3709,7 @@ export  const template = [
   {
     "id": 428369,
     "creator_name": "unknown",
-    "form_link": "https://formlyze.mrshakil.com/api/form/progress-notes-for-psychotherapy",
+    "form_link": "http://168.231.68.138/api/form/progress-notes-for-psychotherapy",
     "title": "Progress Notes for Psychotherapy",
     "description": "Progress Notes for Psychotherapy are detailed records that document the content and progress of therapy sessions. These notes typically include the client’s presenting issues, therapeutic interventions used, the client’s response, any progress or setbacks, and the therapist's observations. Progress notes are essential for tracking treatment goals, monitoring the client's mental health, and ensuring continuity of care. They also serve as a legal and professional record of the therapeutic process.",
     "image": "https://prod-api.formdr.com/file/ejoYkfVv8kqPeFaZCCYSCT2NYmeriUVf",
@@ -3801,7 +3801,7 @@ export  const template = [
   {
     "id": 428369,
     "creator_name": "Formlyze",
-    "form_link": "https://formlyze.mrshakil.com/api/form/progress-notes-for-psychotherapy",
+    "form_link": "http://168.231.68.138/api/form/progress-notes-for-psychotherapy",
     "title": "Progress Notes for Psychotherapy",
     "description": "Detailed records that document the content and progress of therapy sessions",
     "image": "https://prod-api.formdr.com/file/ejoYkfVv8kqPeFaZCCYSCT2NYmeriUVf",
@@ -3902,7 +3902,7 @@ export  const template = [
   {
     "id": 428371,
     "creator_name": "Formlyze",
-    "form_link": "https://formlyze.mrshakil.com/api/form/dissociative-experiences-scale",
+    "form_link": "http://168.231.68.138/api/form/dissociative-experiences-scale",
     "title": "Dissociative Experiences Scale",
     "description": "A self-report questionnaire to assess the frequency and severity of dissociative experiences",
     "image": "https://prod-api.formdr.com/file/qPhPZdhMshmL8uh18kGsNEUFQsNCRHv5",

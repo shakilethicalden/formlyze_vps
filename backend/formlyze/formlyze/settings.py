@@ -73,11 +73,11 @@ REST_FRAMEWORK = {
 
 
 # setup cors
-
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "https://formlyze.vercel.app"
+    "http://168.231.68.138"
 
 ]
 CORS_ALLOW_METHODS = [

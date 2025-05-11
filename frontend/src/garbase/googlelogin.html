@@ -12,7 +12,7 @@
 
     <script>
        //dynamically get credentail from django server
-        fetch('http://127.0.0.1:8000/api/google/oauth/config/')
+        fetch('http://168.231.68.138/api/google/oauth/config/')
             .then(response => response.json())
             .then(data => {
                 const googleClientId = data.google_client_id;

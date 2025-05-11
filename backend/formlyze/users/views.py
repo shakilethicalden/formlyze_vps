@@ -78,7 +78,8 @@ class LoginView(APIView):
     def post(self, request):
         username_or_email = request.data.get('username')
         password = request.data.get('password')
-
+        print("user name is: ", username_or_email)
+        print("Password: ",password)
         if not username_or_email or not password:
             return Response({
                 'success': False,
