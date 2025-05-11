@@ -1,0 +1,66 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+*.venv
+*.env
+Pipfile
+Pipfile.lock
+
+# Django specific files
+*.log
+db.sqlite3
+*.sqlite3
+media
+media/images
+staticfiles/
+*.pyc
+
+# Ignore secrets and environment files
+.env
+*.env
+config/settings/local.py
+config/settings/.env
+config/settings/secrets.json
+
+# Ignore migrations cache (optional)
+**/migrations/__pycache__/
+**/migrations/*.pyc
+
+# Ignore compiled files
+*.egg-info/
+*.manifest
+*.spec
+
+# Ignore Docker files (if using Docker)
+docker-compose.override.yml
+
+# VS Code / PyCharm / IDEs
+.vscode/
+.idea/
+*.iml
+
+# Node modules (if using frontend with DRF)
+node_modules/
+npm-debug.log
+yarn.lock
+
+# Celery and background tasks
+celerybeat-schedule
+celerybeat.pid
+
+
+images/
+# Ignore migration files
+*/migrations/
+
+*.pdf
+frontend/
+
+
+# Production environment files
+.env.production
