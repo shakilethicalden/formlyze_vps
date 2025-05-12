@@ -18,5 +18,5 @@ if(!token){
 
 
 export const config = {
-  matcher: ["/create-form", "/my-all-form"]
+  matcher: ['/',"/create-form", "/my-all-form"]
 };

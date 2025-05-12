@@ -26,7 +26,7 @@ const MyAllFormPage = () => {
     const filteredForms = data?.filter(form => !form.is_trash && !form.is_archive) || [];
 
     const copyFormLink = async (id, token) => {
-        const formLink = `${window.location.origin}/formView/${token}`;
+        const formLink = `${'http://app.formlyze.io'}/formView/${token}`;
         await navigator.clipboard.writeText(formLink);
         setCopiedId(id);
         setTimeout(() => {

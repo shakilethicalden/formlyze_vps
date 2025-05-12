@@ -1,13 +1,20 @@
 from pathlib import Path
 import os
-# from dotenv import load_dotenv
+from dotenv import load_dotenv
 from pathlib import Path
+
+
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-# load_dotenv(BASE_DIR / ".env.production", override=True)
+IS_PRODUCTION = os.getenv('SERVER_DB_HOST') is not None  # Check for production-only variable
 
+if IS_PRODUCTION:
+    load_dotenv(BASE_DIR / ".env.production", override=True)
+else:
+    load_dotenv(BASE_DIR / ".env.local", override=True)
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
@@ -18,7 +25,7 @@ SECRET_KEY = 'django-insecure-cc!u#+^om+rrla$mu40_%0!6zw(q&th-=z)-ts-!k29+riis)z
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["168.231.68.138", "localhost", "127.0.0.1"]
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -73,10 +80,13 @@ REST_FRAMEWORK = {
 
 
 # setup cors
+
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "http://168.231.68.138"
+    "https://formlyze.vercel.app",
+    "http://168.231.68.138",
+    "http://app.formlyze.io",
 
 ]
 CORS_ALLOW_METHODS = [
@@ -94,8 +104,10 @@ CORS_ALLOW_HEADERS = [
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    "http://localhost:3000",
-    "http://168.231.68.138",    
+    "http://localhost:3000",              
+    "https://formlyze.vercel.app",    
+    "http://168.231.68.138",
+    "http://app.formlyze.io",
 ]
 
 
@@ -154,17 +166,28 @@ WSGI_APPLICATION = 'formlyze.wsgi.application'
 #     }
 # }
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql', 
-        'NAME': 'formlyze_db',
-        'USER': 'formlyze_user',
-        'PASSWORD': 'formlyze123db',
-        'HOST': '168.231.68.138',
-        'PORT': '3306', 
+if os.getenv("ENV_TYPE") == "SERVER":
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': os.getenv('SERVER_DB_NAME'),
+            'USER': os.getenv('SERVER_DB_USER'),
+            'PASSWORD': os.getenv('SERVER_DB_PASSWORD'),
+            'HOST': os.getenv('SERVER_DB_HOST'),
+            'PORT': os.getenv('SERVER_DB_PORT', '3306'),
+        }
     }
-}
-
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': os.getenv('DB_NAME'),
+            'USER': os.getenv('DB_USER'),
+            'PASSWORD': os.getenv('DB_PASSWORD'),
+            'HOST': os.getenv('DB_HOST', 'localhost'),
+            'PORT': os.getenv('DB_PORT', '3306'),
+        }
+    }
 
 
 # Password validation

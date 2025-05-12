@@ -128,6 +128,7 @@ const Trash = () => {
     if (isLoading) return <LoadingPage />;
     if (error) return <ErrorPage message='Something went wrong! Please refresh this page or login again!' />;
     if (data?.length < 1) return <NoDataAvailable message="Trash is empty..." />;
+    const newData = data.filter(data => data?.is_trash)
 
     return (
         <div className={` ${checkedId ? 'lg:ml-[8%] xl:ml-0' : 'lg:-ml-[8%] xl:-ml-0'} xl:m mt-24 px-1 min-h-[calc(100vh-2rem)]`}>
@@ -145,7 +146,7 @@ const Trash = () => {
                     </div>
 
                     <div className='space-y-4'>
-                        {data && data.map((form) => (
+                        {data && newData?.map((form) => (
                             <div key={form.id} className='flex items-center dark:bg-white cursor-pointer border-b-[#00000059] border-b border-[#00000059] px-6 py-3 hover:bg-gray-50 transition-colors '>
                                 {/* Left side - Form title and actions */}
                                 <div className='flex-1 mr-4 flex items-center lg:min-w-[250px] md:min-w-[250px] xl:min-w-[400px] max-w-[150px]'>

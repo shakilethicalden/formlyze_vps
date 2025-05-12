@@ -99,7 +99,7 @@ const SignIn = () => {
         setError("Login failed.");
       }
     } else {
-      router.push("/"); 
+      router.push("/my-all-form"); 
     }
   };
 
