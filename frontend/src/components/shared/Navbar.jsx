@@ -141,7 +141,7 @@ const Navbar = () => {
             </nav>
             
             {/* Icons Section */}
-            {user ? (
+            {user && (
                 <div className='flex z-50 relative items-center gap-6'>
                     {/* Notification Button with Dropdown */}
                     <div className='relative' ref={notificationRef}>
@@ -268,23 +268,7 @@ const Navbar = () => {
                         )}
                     </div>
                 </div>
-            ) : (
-                <div className='flex items-center '>
-                    <Link 
-                        href="/sign-in" 
-                        className='px-5 py-2.5 rounded-md border-[#1A1466] text-white font-medium rounded-r-none border-r-0 hover:bg-opacity-10 transition-colors whitespace-nowrap border btn-primary  border-opacity-20'
-                    >
-                        Log in
-                    </Link>
-                    
-                    <Link 
-                        href="/sign-up" 
-                        className='px-5 py-2.5 border-[#1A1466] rounded-md rounded-l-none  font-medium bg-third text-[#1A1466] hover:bg-opacity-90 transition-colors whitespace-nowrap shadow-md'
-                    >
-                        Sign Up
-                    </Link>
-                </div>
-            )}
+            ) }
         </header>
     );
 };
