@@ -105,11 +105,10 @@ const Navbar = () => {
         }
     };
 
-    if(!user){
+    if(pathname.includes('/view-single-response') && !user){
         return null;
     }
-
-    if(pathname.includes('/formView') && !user){
+    if(pathname.includes('/not-found') ){
         return null;
     }
 

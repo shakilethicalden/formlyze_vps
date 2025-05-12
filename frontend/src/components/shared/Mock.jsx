@@ -14,6 +14,9 @@ const Mock = () => {
     if(!user && pathName.includes('/formView')) {
         return null;
     }
+    if(pathName.includes('/not-found') ){
+        return null;
+    }
     if(!user && pathName.includes('/view-single-response')) {
         return null;
     }

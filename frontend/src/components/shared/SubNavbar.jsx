@@ -12,6 +12,10 @@ const SubNavbar = () => {
     if (pathname.includes('/formView') && !user) {
         return null;
     }
+    if(pathname.includes('/not-found') ){
+        return null;
+    }
+
     if (pathname.includes('/view-single-response') && !user) {
         return null;
     }

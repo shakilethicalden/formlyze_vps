@@ -1,9 +1,4 @@
-
-
 import { NextResponse } from "next/server";
-
-
-
 
 export default function middleware(req) {
 
@@ -18,5 +13,5 @@ if(!token){
 
 
 export const config = {
-  matcher: ['/',"/create-form", "/my-all-form"]
+  matcher: [ '/', "/create-form", "/my-all-form", "/classic-form", "/favorites", "/archive", "/trash", "/view-responses", "/update-form"]
 };
