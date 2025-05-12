@@ -93,7 +93,7 @@ const Archive = () => {
     if (isLoading) return <LoadingPage />;
     if (error) return <ErrorPage message='Something went wrong! Please refresh this page or login again!' />;
     if (data?.length < 1) return <NoDataAvailable message="No archived forms available..." />;
-    const newData = data.filter(data => data?.is_archive)
+    const newData = Array.isArray(data) ? data.filter(item => item?.is_archive) : [];
 
     return (
         <div className={` ${checkedId ? 'lg:ml-[8%] xl:ml-0' : 'lg:-ml-[8%] xl:-ml-0'} xl:m mt-24 px-1 min-h-[calc(100vh-2rem)]`}>

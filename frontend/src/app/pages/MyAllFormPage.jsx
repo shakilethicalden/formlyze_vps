@@ -26,13 +26,41 @@ const MyAllFormPage = () => {
     const filteredForms = data?.filter(form => !form.is_trash && !form.is_archive) || [];
 
     const copyFormLink = async (id, token) => {
-        const formLink = `${'http://app.formlyze.io'}/formView/${token}`;
-        await navigator.clipboard.writeText(formLink);
+    const formLink = `${'http://app.formlyze.io'}/formView/${token}`;
+
+    try {
+        if (navigator.clipboard && typeof navigator.clipboard.writeText === 'function') {
+            await navigator.clipboard.writeText(formLink);
+        } else {
+            // Fallback for older browsers
+            const textarea = document.createElement("textarea");
+            textarea.value = formLink;
+            textarea.style.position = "fixed"; // Prevent scrolling to bottom
+            document.body.appendChild(textarea);
+            textarea.focus();
+            textarea.select();
+            const success = document.execCommand("copy");
+            document.body.removeChild(textarea);
+
+            if (!success) {
+                throw new Error("Fallback copy failed.");
+            }
+        }
+
         setCopiedId(id);
         setTimeout(() => {
             setCopiedId(null);
         }, 2000);
-    };
+    } catch (err) {
+        console.error("Copy failed:", err);
+        Swal.fire({
+            title: "Error!",
+            text: "Clipboard not supported in your browser.",
+            icon: "error"
+        });
+    }
+};
+
 
     const deleteForm = async (id) => {
         try {

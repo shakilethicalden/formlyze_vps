@@ -91,7 +91,7 @@ const Favorites = () => {
     if (isLoading) return <LoadingPage />;
     if (error) return <ErrorPage message='Something went wrong! Please refresh this page or login again!' />;
     if (data?.length < 1) return <NoDataAvailable message="No favorite forms available..." />;
-    const newData = data.filter(data => data?.is_favorite )
+    const newData = Array.isArray(data) ? data.filter(item => item?.is_favorite) : [];
 
     return (
         <div className={` ${checkedId ? 'lg:ml-[8%] xl:ml-0' : 'lg:-ml-[8%] xl:-ml-0'} xl:m mt-24 px-1 min-h-[calc(100vh-2rem)]`}>

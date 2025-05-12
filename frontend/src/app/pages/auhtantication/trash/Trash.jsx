@@ -128,7 +128,7 @@ const Trash = () => {
     if (isLoading) return <LoadingPage />;
     if (error) return <ErrorPage message='Something went wrong! Please refresh this page or login again!' />;
     if (data?.length < 1) return <NoDataAvailable message="Trash is empty..." />;
-    const newData = data.filter(data => data?.is_trash)
+    const newData = Array.isArray(data) ? data.filter(item => item?.is_trash) : [];
 
     return (
         <div className={` ${checkedId ? 'lg:ml-[8%] xl:ml-0' : 'lg:-ml-[8%] xl:-ml-0'} xl:m mt-24 px-1 min-h-[calc(100vh-2rem)]`}>
