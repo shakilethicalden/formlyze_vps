@@ -78,8 +78,7 @@ class LoginView(APIView):
     def post(self, request):
         username_or_email = request.data.get('username')
         password = request.data.get('password')
-        print("user name is: ", username_or_email)
-        print("Password: ",password)
+
         if not username_or_email or not password:
             return Response({
                 'success': False,
@@ -168,7 +167,7 @@ class ForgotPasswordView(APIView):
                 token=default_token_generator.make_token(user.user)
                 
                 #when user click render to frontend and fill pass and submit
-                reset_link = f"https://formlyze.vercel.app/reset-password/{uid}/{token}/"  
+                reset_link = f"http://app.formlyze.io/reset-password/{uid}/{token}/"  
 
                 send_reset_password_email(user,reset_link)
                 
