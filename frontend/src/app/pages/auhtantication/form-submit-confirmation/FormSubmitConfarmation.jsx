@@ -31,7 +31,7 @@ const FormSubmitConfirmation = ({ onNewSubmission, _id }) => {
                     <Link 
                         href={`/view-single-response/${_id}`} 
                         
-                        className="flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white   btn-primary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+                        className="px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-blue-600 bg-blue-50 hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                     >
 
 <FcViewDetails className="mr-2" />
@@ -39,12 +39,7 @@ const FormSubmitConfirmation = ({ onNewSubmission, _id }) => {
                       View Response
                     </Link>
                     
-                    <Link 
-                        href="/" 
-                        className="px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-blue-600 bg-blue-50 hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
-                    >
-                        Return to homepage
-                    </Link>
+                    
                 </div>
                 
                 <div className="mt-6 pt-6 border-t border-gray-200">

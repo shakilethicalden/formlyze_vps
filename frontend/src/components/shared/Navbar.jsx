@@ -105,7 +105,7 @@ const Navbar = () => {
         }
     };
 
-    if(pathname.includes('/view-single-response') && !user){
+    if(!user){
         return null;
     }
 

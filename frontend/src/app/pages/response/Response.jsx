@@ -273,14 +273,14 @@ const Response = ({ data = [], isLoading, error, title,id }) => {
                                 </div>
                                 <button 
                                     onClick={handleSearch}
-                                    className="btn mr-24 btn-primary px-4 py-2 rounded-lg"
+                                    className="btn mr-2 btn-primary cursor-pointer px-4 py-2 rounded-lg"
                                 >
                                     Search
                                 </button>
                                 {showSearchResults && (
                                     <button 
                                         onClick={handleClearSearch}
-                                        className="btn bg-gray-200 px-4 py-2 rounded-lg hover:bg-gray-300 transition"
+                                        className="btn bg-red-700 px-4 py-2 cursor-pointer rounded-lg text-white hover:bg-red-400 transition"
                                     >
                                         Clear
                                     </button>
@@ -293,7 +293,7 @@ const Response = ({ data = [], isLoading, error, title,id }) => {
                             <div className="relative w-[200px] md:w-auto whitespace-nowrap">
                                 <button 
                                     onClick={() => setIsSortOpen(!isSortOpen)}
-                                    className="flex items-center gap-2 px-4 py-2 bg-gray-100 rounded-lg hover:bg-gray-200 text-black transition w-full md:w-auto"
+                                    className="flex items-center gap-2 px-4 py-2 bg-gray-100 rounded-lg cursor-pointer hover:bg-gray-200 text-black transition w-full md:w-auto"
                                 >
                                     <FiClock />
                                     {sortOrder === 'newest' ? 'Newest First' : 'Oldest First'}
