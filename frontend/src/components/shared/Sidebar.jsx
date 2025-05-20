@@ -81,7 +81,7 @@ const SidebarContent = () => {
     const menu = [
         { 
             id: 1,
-            menuName: 'My All Form',
+            menuName: 'All Form',
             link: '/my-all-form',
             icon: <MdDashboard className="text-lg" />
         },
@@ -92,7 +92,7 @@ const SidebarContent = () => {
             icon: <HiTemplate className="text-lg" />,
             submenu: [
                 {
-                    menuName: 'Classic Form',
+                    menuName: 'Health Care',
                     link: '/classic-form?category=all',
                     icon: <MdFormatListBulleted className="text-sm" />
                 },

@@ -455,7 +455,7 @@ function FormEditorContent() {
                 <input
                   type="text"
                   className="w-full border border-[#CCCAEC] rounded px-3 py-2 focus:outline-none focus:ring-1 focus:ring-[#1A1466] focus:border-[#1A1466] bg-white"
-                  placeholder={`Enter ${addrField.label.toLowerCase()}`}
+                  placeholder={`Enter ${addrField?.label?.toLowerCase()}`}
                   disabled
                 />
               </div>
