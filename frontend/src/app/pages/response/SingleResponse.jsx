@@ -195,25 +195,142 @@ const SingleResponse = ({ data }) => {
     // To track displayed questions
     const displayedQuestions = new Set()
 
+    // for (const field of data.response_data || []) {
+    //   const questionText = field.question_title || ''
+    //   let answerText = ''
+    //   let isLink = false
+    //   let isAddress = field.field_type === 'address'
+
+    //   // Skip duplicate questions by checking if the question has been displayed
+    //   if (displayedQuestions.has(questionText)) continue
+    //   displayedQuestions.add(questionText)
+
+    //   let questionHeight = addFormattedText(
+    //     questionText,
+    //     0,
+    //     0,
+    //     questionColWidth,
+    //     styles.question,
+    //     false
+    //   )
+    //   let answerHeight = 0
+
+    //   if (isAddress) {
+    //     answerHeight = formatAddressAnswer(
+    //       field.response,
+    //       leftMargin + questionColWidth,
+    //       yPosition
+    //     )
+    //   } else {
+    //     switch (field.field_type) {
+    //       case 'text':
+    //       case 'textarea':
+    //         answerText = field?.response || 'No response provided'
+    //         break
+    //       case 'email':
+    //       case 'url':
+    //       case 'file':
+    //         answerText = field?.response || `No ${field.field_type} provided`
+    //         isLink = !!field.response
+    //         break
+    //       case 'checkbox':
+    //         answerText =
+    //           Array.isArray(field.response) && field.response.length > 0
+    //             ? field.response.join(', ')
+    //             : 'No options selected'
+    //         break
+    //       case 'dropdown':
+    //       case 'radio':
+    //       case 'number':
+    //       case 'phone':
+    //         answerText = field.response || 'No selection'
+    //         break
+    //       case 'date':
+    //         answerText = field.response
+    //           ? new Date(field.response).toLocaleDateString()
+    //           : 'No date selected'
+    //         break
+    //       default:
+    //         answerText = field.response || 'No response'
+    //     }
+
+    //     answerHeight = addFormattedText(
+    //       answerText,
+    //       leftMargin + questionColWidth,
+    //       yPosition,
+    //       answerColWidth,
+    //       styles.answer,
+    //       isLink
+    //     )
+    //   }
+
+    //   const finalRowHeight = Math.max(10, questionHeight, answerHeight)
+
+    //   if (yPosition + finalRowHeight > pdf.internal.pageSize.getHeight() - 20) {
+    //     pdf.addPage()
+    //     yPosition = 20
+    //   }
+
+    //   pdf.setFillColor(...styles.question.fillColor)
+    //   pdf.rect(leftMargin, yPosition, questionColWidth, finalRowHeight, 'F')
+    //   pdf.setDrawColor(204, 202, 236)
+    //   pdf.rect(leftMargin, yPosition, questionColWidth, finalRowHeight)
+
+    //   pdf.setFillColor(...styles.answer.fillColor)
+    //   pdf.rect(
+    //     leftMargin + questionColWidth,
+    //     yPosition,
+    //     answerColWidth,
+    //     finalRowHeight,
+    //     'F'
+    //   )
+    //   pdf.rect(
+    //     leftMargin + questionColWidth,
+    //     yPosition,
+    //     answerColWidth,
+    //     finalRowHeight
+    //   )
+
+    //   addFormattedText(
+    //     questionText,
+    //     leftMargin,
+    //     yPosition,
+    //     questionColWidth,
+    //     styles.question,
+    //     false
+    //   )
+
+    //   if (isAddress) {
+    //     formatAddressAnswer(
+    //       field.response,
+    //       leftMargin + questionColWidth,
+    //       yPosition
+    //     )
+    //   } else {
+    //     addFormattedText(
+    //       answerText,
+    //       leftMargin + questionColWidth,
+    //       yPosition,
+    //       answerColWidth,
+    //       styles.answer,
+    //       isLink
+    //     )
+    //   }
+
+    //   yPosition += finalRowHeight + 3
+    // }
+
     for (const field of data.response_data || []) {
       const questionText = field.question_title || ''
       let answerText = ''
       let isLink = false
       let isAddress = field.field_type === 'address'
 
-      // Skip duplicate questions by checking if the question has been displayed
       if (displayedQuestions.has(questionText)) continue
       displayedQuestions.add(questionText)
 
-      let questionHeight = addFormattedText(
-        questionText,
-        0,
-        0,
-        questionColWidth,
-        styles.question,
-        false
-      )
       let answerHeight = 0
+      let questionHeight = 10 // Set a default estimated height
 
       if (isAddress) {
         answerHeight = formatAddressAnswer(
@@ -327,9 +444,6 @@ const SingleResponse = ({ data }) => {
     )
   }
 
-  // const downLoadPdf = async()=>{
-
-  // }
   return (
     <div
       id='pdf'
