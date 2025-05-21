@@ -131,11 +131,16 @@ const ClassicFormContent = () => {
                 key={idx}
                 className='mt-4 space-y-2.5 custom-shadow px-3 py-4 bg-white rounded-xl overflow-hidden hover:shadow-lg transition-shadow duration-300 border border-gray-100'
               >
-                <Image
-                  src={formData[0].img}
-                  alt={data.title}
-                  className='flex w-full justify-center text-center mx-auto'
-                />
+                <div className='h-[25vh] overflow-hidden group relative'>
+                  <Image
+                    src={data?.image}
+                    alt={data.title}
+                    width={500}
+                    height={200}
+                    className='w-full mx-auto transition-transform duration-[4000ms] group-hover:-translate-y-[80%]'
+                  />
+                </div>
+
                 <h1 className='text-primary text-xl h-[50px] font-semibold'>
                   {data.title.slice(0, 32)}
                   {data.title.length > 32 ? '..' : ''}

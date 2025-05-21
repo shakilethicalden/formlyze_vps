@@ -18,7 +18,7 @@ export  const template = [
         "form_link": "https://app.formdr.com/file/FEzN_c_3oy4gI5cxYE98N1BMOBS-PUP5", // Using publicLink as form_link
         "title": "PHQ-9 Modified for Teens",
         "description": "The Patient Health Questionnaire-9 (PHQ-9) is a self-rating scale for screening and assessing depression which covering the DSM-IV algorithm for major depression.",
-        "image": "https://prod-api.formdr.com/file/t1fG7goMdKoUHXDfK_LRbXttp2bZkesk", // Using templateLogo
+        "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-1.png?updatedAt=1747821610342", // Using templateLogo
         "category": "Psychology",
         "fields": [
           {
@@ -264,7 +264,7 @@ export  const template = [
         "form_link": "", // No file link provided, leaving empty
         "title": "Suicide Risk Screen",
         "description": "Have your patients complete a brief suicide safety assessment to determine if a full mental health evaluation is needed.",
-        "image": "https://prod-api.formdr.com/file/mS5wqNLP5UtJ0RDnCgssEETsmInczEPM", // Using templateLogo
+        "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-2.png?updatedAt=1747821610148", // Using templateLogo
         "category": "Psychology",
         "fields": [
           {
@@ -348,7 +348,7 @@ export  const template = [
         "form_link": "", // No file link provided, leaving empty
         "title": "Adverse Childhood Experiences Test (ACE Test)",
         "description": "The ACE Test, or Adverse Childhood Experiences Test, is a psychological assessment tool used to evaluate the impact of traumatic events experienced during childhood (before age 18). It measures exposure to potentially harmful experiences that may influence physical, emotional, and mental health later in life. The ACE Test emphasizes the importance of addressing childhood trauma as a critical step in promoting lifelong well-being and health.",
-        "image": "https://prod-api.formdr.com/file/gWeK7ZhOA1VJpfvcnR0VbUEA1r18BCPm", // Using templateLogo
+        "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-3.png?updatedAt=1747821610532", // Using templateLogo
         "category": "Psychology",
         "fields": [
           {
@@ -485,7 +485,7 @@ export  const template = [
         "form_link": "", // No file link provided, leaving empty
         "title": "Emotional Intelligence Test",
         "description": "An Emotional Intelligence (EI) Test is an assessment designed to measure a person's ability to recognize, understand, and manage emotions, both in themselves and in others. Emotional Intelligence, often referred to as EQ (Emotional Quotient), is considered a key factor in personal and professional success, as it influences communication, empathy, decision-making, and relationships.",
-        "image": "https://prod-api.formdr.com/file/dxsjoO70HZKFqpdt2qYjM--zBHXfZx0B", // Using templateLogo
+        "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-4.png?updatedAt=1747821611119", // Using templateLogo
         "category": "Psychology",
         "fields": [
           {
@@ -867,7 +867,7 @@ export  const template = [
         "form_link": "https://formlyze.mrshakil.com/api/form/columbia-suicide-severity-rating-scale-(c-ssrs)-",
         "title": "Columbia Suicide Severity Rating Scale (C-SSRS)",
         "description": "The Columbia-Suicide Severity Rating Scale (C-SSRS) is a questionnaire used for suicide assessment developed by multiple institutions, including Columbia University, with NIMH support. The scale is evidence-supported and is part of a national and international public health initiative involving the assessment of suicidality.",
-        "image": "https://prod-api.formdr.com/file/FmSSJ-tUUQkbvNkHWV00ikAvwFCwBFCy",
+        "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-5.png?updatedAt=1747821610677",
         "category": "Psychology",
         "fields": [
           {
@@ -1444,7 +1444,7 @@ export  const template = [
         "form_link": "",
         "title": "Home Situations Questionnaire",
         "description": "A Home Situations Questionnaire (HSQ) is a tool used to assess the frequency and intensity of challenging behaviors a child or adolescent may exhibit in the home environment. It is commonly used by parents, caregivers, or professionals (e.g., therapists, educators) to better understand behavior patterns, identify potential triggers, and develop effective strategies for behavior management. This questionnaire is often used in the context of children with emotional, behavioral, or developmental concerns, including ADHD, autism spectrum disorders, or conduct-related challenges.",
-        "image": "https://prod-api.formdr.com/file/eP1ve9wEMDlQSHQs6wBcEZZuJTgjSMB5",
+        "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-6.png?updatedAt=1747821610616",
         "category": "Psychology",
         "fields": [
           {
@@ -1923,7 +1923,7 @@ export  const template = [
         "form_link": "",
         "title": "Brief - Coping Orientation to Problems Experienced Inventory",
         "description": "The Coping Orientation to Problems Experienced (COPE) Inventory is a psychological tool designed to assess the ways people respond to stress or difficult situations. It evaluates different coping strategies people use, providing insight into how they manage challenges in their lives.",
-        "image": "https://prod-api.formdr.com/file/Z67-LsD_JlXMZDc9nm-Z91dvvI1Ifn8K",
+        "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-7.jpg?updatedAt=1747821613245",
         "category": "Psychology",
         "fields": [
           {
@@ -2353,7 +2353,7 @@ export  const template = [
         "form_link": "",
         "title": "Trauma Response Test",
         "description": "This template is designed to assess an individual’s psychological and emotional response to a traumatic event. It evaluates key areas such as symptoms of post-traumatic stress, emotional regulation, coping mechanisms, and behavioral changes. The test provides a structured and comprehensive approach to identify trauma-related distress and guide further interventions or referrals. Ideal for use in clinical, counseling, or research settings, this tool helps professionals better understand the impact of trauma and develop personalized care plans to support recovery and resilience.",
-        "image": "https://prod-api.formdr.com/file/ofOR7ELz3nzV1wdeFGdX0ixruDlq01D0",
+        "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-8.jpg?updatedAt=1747821613069",
         "category": "Psychology",
         "fields": [
           {
@@ -2763,7 +2763,7 @@ export  const template = [
         "form_link": "",
         "title": "General Health Questionnaire (GHQ-12)",
         "description": "This template is designed to assess general mental health and identify potential psychological distress. The GHQ-12 is a widely used screening tool consisting of 12 questions that evaluate an individual’s emotional well-being, including symptoms such as anxiety, depression, and social dysfunction. With its simple scoring system, this questionnaire provides a quick and reliable method for identifying individuals who may benefit from further mental health evaluation or support. Ideal for use in clinical, workplace, and research settings, the GHQ-12 helps promote mental health awareness and early intervention.",
-        "image": "https://prod-api.formdr.com/file/-MZlFkU7_TUL2i-s1umTV_EB_EAMmGEt",
+        "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-9.jpg?updatedAt=1747821613089",
         "category": "Psychology",
         "fields": [
           {
@@ -3014,7 +3014,7 @@ export  const template = [
         "form_link": "",
         "title": "Big Five Personality Traits Test",
         "description": "This template is designed to assess an individual’s personality based on the Big Five model: Openness, Conscientiousness, Extraversion, Agreeableness, and Neuroticism. It provides a structured and user-friendly format to evaluate key traits, offering insights into behavior, preferences, and interpersonal tendencies. Ideal for personal development, team-building activities, and psychological research, this test ensures reliable and insightful results to better understand personality dynamics.",
-        "image": "https://prod-api.formdr.com/file/3tr_gWH1cjYTJ1OwXFxPOwZawKAo2bG8",
+        "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-10.jpg?updatedAt=1747821613046",
         "category": "Psychology",
         "fields": [
           {
@@ -3187,7 +3187,7 @@ export  const template = [
         "form_link": "",
         "title": "Clinical Institute Withdrawal Assessment of Alcohol Scale, Revised (CIWA-AR)",
         "description": "The Clinical Institute Withdrawal Assessment of Alcohol Scale, Revised (CIWA-Ar) is a tool used by healthcare professionals to assess and monitor the severity of alcohol withdrawal symptoms in individuals. It helps guide treatment decisions, such as whether medication or hospitalization is necessary.",
-        "image": "https://prod-api.formdr.com/file/YtkcANOvDeDWc-M7BKIBxmbVGa3Y6KMj",
+        "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-11.jpg?updatedAt=1747821614273",
         "category": "Psychology",
         "fields": [
           {
@@ -3422,7 +3422,7 @@ export  const template = [
     "form_link": "https://formlyze.mrshakil.com/api/form/strengths-and-difficulties-questionnaire",
     "title": "Strengths and Difficulties Questionnaire",
     "description": "The Strengths and Difficulties Questionnaire (SDQ) is a brief behavioral screening tool designed to assess the emotional and social well-being of children and adolescents. Covering areas such as emotional symptoms, conduct issues, hyperactivity, peer relationships, and prosocial behavior, the SDQ helps identify strengths and difficulties. It is particularly beneficial for medical practitioners, as it aids in diagnosing mental health concerns, guiding treatment plans, and monitoring the progress of interventions to support overall development and well-being.",
-    "image": "https://prod-api.formdr.com/file/ydRPqoXfEnzYrv8aMGIsBE05IKxw7tR4",
+    "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-12.jpg?updatedAt=1747821615311",
     "industry": "Psychology",
     "fields": [
       {
@@ -3712,7 +3712,7 @@ export  const template = [
     "form_link": "https://formlyze.mrshakil.com/api/form/progress-notes-for-psychotherapy",
     "title": "Progress Notes for Psychotherapy",
     "description": "Progress Notes for Psychotherapy are detailed records that document the content and progress of therapy sessions. These notes typically include the client’s presenting issues, therapeutic interventions used, the client’s response, any progress or setbacks, and the therapist's observations. Progress notes are essential for tracking treatment goals, monitoring the client's mental health, and ensuring continuity of care. They also serve as a legal and professional record of the therapeutic process.",
-    "image": "https://prod-api.formdr.com/file/ejoYkfVv8kqPeFaZCCYSCT2NYmeriUVf",
+    "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-13.jpg?updatedAt=1747821615468",
     "industry": "Psychology",
     "fields": [
       {
@@ -3804,7 +3804,7 @@ export  const template = [
     "form_link": "https://formlyze.mrshakil.com/api/form/progress-notes-for-psychotherapy",
     "title": "Progress Notes for Psychotherapy",
     "description": "Detailed records that document the content and progress of therapy sessions",
-    "image": "https://prod-api.formdr.com/file/ejoYkfVv8kqPeFaZCCYSCT2NYmeriUVf",
+    "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-14.jpg?updatedAt=1747821615873",
     "category": "Psychology",
     "fields": [
       {
@@ -3905,7 +3905,7 @@ export  const template = [
     "form_link": "https://formlyze.mrshakil.com/api/form/dissociative-experiences-scale",
     "title": "Dissociative Experiences Scale",
     "description": "A self-report questionnaire to assess the frequency and severity of dissociative experiences",
-    "image": "https://prod-api.formdr.com/file/qPhPZdhMshmL8uh18kGsNEUFQsNCRHv5",
+    "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-15.jpg?updatedAt=1747821616287",
     "category": "Psychology",
     "fields": [
       {
@@ -4222,7 +4222,7 @@ export  const template = [
     "form_link": "https://prod-api.formdr.com/strengths-and-difficulties-questionnaire",
     "title": "Strengths and Difficulties Questionnaire",
     "description": "The Strengths and Difficulties Questionnaire (SDQ) is a brief behavioral screening tool designed to assess the emotional and social well-being of children and adolescents. Covering areas such as emotional symptoms, conduct issues, hyperactivity, peer relationships, and prosocial behavior, the SDQ helps identify strengths and difficulties.",
-    "image": "https://prod-api.formdr.com/file/ydRPqoXfEnzYrv8aMGIsBE05IKxw7tR4",
+    "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-16.jpg?updatedAt=1747821615984",
     "category": "Psychology",
     "fields": [
       {
@@ -4494,7 +4494,7 @@ export  const template = [
     "form_link": null,
     "title": "Social Communication Questionnaire (SCQ)",
     "description": "The Social Communication Questionnaire (SCQ) is a screening tool designed to identify social and communication challenges associated with autism spectrum disorder (ASD). Comprising 40 yes/no questions, it evaluates behaviors across areas such as social interaction, communication, and repetitive behaviors. Scoring helps medical practitioners determine if further comprehensive ASD evaluation is needed, supporting early diagnosis and intervention.",
-    "image": "https://prod-api.formdr.com/file/H1A-oQbXA_9bqHoeKVLiAHjZ0RkYAOG_",
+    "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-17.jpg?updatedAt=1747821616696",
     "category": "Psychology",
     "fields": [
         {
@@ -4929,7 +4929,7 @@ export  const template = [
   "form_link": "https://prod-api.formdr.com/depression,-anxiety,-and-stress-scale-(dass-21)",
   "title": "Depression, Anxiety, and Stress Scale (DASS-21)",
   "description": "The Depression, Anxiety, and Stress Scale (DASS-21) is a 21-item self-report tool designed to measure the emotional states of depression, anxiety, and stress. Each of the three subscales consists of seven items scored on a 4-point Likert scale, assessing the severity of these conditions.",
-  "image": "https://prod-api.formdr.com/file/zFSPAzI9iTGzaI-PmTO_s5sLfaaAqu51",
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-18.jpg?updatedAt=1747821583147",
   "category": "Psychology",
   "fields": [
     {
@@ -5193,7 +5193,7 @@ export  const template = [
   "form_link": null,
   "title": "Perceived Stress Scale",
   "description": "The Perceived Stress Scale (PSS) is a widely used psychological tool designed to measure the degree to which individuals perceive situations in their lives as stressful. It assesses feelings of unpredictability, overload, and lack of control over the past month, providing insight into one’s subjective stress levels. This scale is applicable across diverse populations and is often used in research, clinical, and personal development settings to evaluate stress and its impact on well-being.",
-  "image": "https://prod-api.formdr.com/file/QbcSU3eqBpIkGNJwl8m-L2tAilwV3WC6",
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-19.jpg?updatedAt=1747821585881",
   "category": "Psychology",
   "fields": [
       {
@@ -5381,7 +5381,7 @@ export  const template = [
   "form_link": "https://prod-api.formdr.com/international-trauma-questionnaire-for-complex-ptsd-testing",
   "title": "International Trauma Questionnaire for Complex PTSD Testing",
   "description": "The International Trauma Questionnaire (ITQ) is a specialized assessment tool used to identify and evaluate symptoms of Complex Post-Traumatic Stress Disorder (C-PTSD). Rooted in the diagnostic framework of the ICD-11, it examines core PTSD symptoms such as re-experiencing, avoidance, and hyperarousal, along with disturbances in self-organization (DSO), including difficulties with emotional regulation, negative self-concept, and relational problems.",
-  "image": "https://prod-api.formdr.com/file/m8BpbtF2PfuU5K90s96DrFeQQ7bpLXQo",
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-20.jpg?updatedAt=1747821587146",
   "category": "Psychology",
   "fields": [
     {
@@ -5700,7 +5700,7 @@ export  const template = [
   "form_link": "https://prod-api.formdr.com/positive-and-negative-affect-schedule",
   "title": "Positive and Negative Affect Schedule",
   "description": "The Positive and Negative Affect Schedule – Short Form (PANAS-SF) is a brief, validated self-report questionnaire designed to measure an individual's emotional states. It assesses two primary dimensions of affect: positive affect (e.g., feelings of enthusiasm, alertness) and negative affect (e.g., feelings of distress, anger). With its concise format, the PANAS-SF is widely used in psychological research and clinical settings to evaluate mood fluctuations, emotional well-being, and responses to interventions.",
-  "image": "https://prod-api.formdr.com/file/x4yYASvT0qPUuXaAL9pJIUMZW0dIijce",
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-21.jpg?updatedAt=1747821586602",
   "category": "Psychology",
   "fields": [
     {
@@ -6039,7 +6039,7 @@ export  const template = [
   "form_link": "https://prod-api.formdr.com/resilience-questionnaire",
   "title": "Resilience Questionnaire",
   "description": "The Resilience Questionnaire is a self-assessment tool designed to evaluate key factors that contribute to emotional strength and adaptability. It explores early life experiences, social support systems, and personal relationships to understand how they shape an individual's ability to cope with challenges. By identifying protective factors and areas for growth, this questionnaire provides valuable insights into resilience and well-being, helping to develop strategies for personal empowerment and emotional stability.",
-  "image": "https://prod-api.formdr.com/file/-wN2FBcvXV3vM3hto-WgreqFGREhtrfa",
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-22.jpg?updatedAt=1747821586532",
   "category": "Psychology",
   "fields": [
     {
@@ -6306,7 +6306,7 @@ export  const template = [
   "form_link": "https://prod-api.formdr.com/conners-rating-scale-for-parents-revised-l",
   "title": "Conners’ Rating Scale for Parents (Revised - L)",
   "description": "The Conners’ Rating Scale for Parents (Revised - L) is a standardized assessment tool designed to evaluate behavioral, emotional, and attention-related concerns in children and adolescents. Completed by parents, this questionnaire provides valuable insights into a child’s behavior across various settings, helping identify potential challenges related to ADHD, conduct disorders, and other developmental concerns. The results aid in early detection, intervention planning, and professional diagnosis, ensuring appropriate support for the child’s well-being.",
-  "image": "https://prod-api.formdr.com/file/rkCcSKwsl371SKnsqNpU3p9y4vtFt-0b",
+  "image": "https://res.cloudinary.com/dshn2s0tc/image/upload/v1747824842/healthcare-form-23_aobsr6.jpg",
   "category": "Psychology",
   "fields": [
     {
@@ -7432,7 +7432,7 @@ export  const template = [
   "form_link": "https://prod-api.formdr.com/alexithymia-test",
   "title": "Alexithymia Test",
   "description": "The Alexithymia Test is a psychological assessment designed to measure difficulties in identifying, expressing, and understanding emotions. This test evaluates key traits associated with alexithymia, such as limited emotional awareness, externally oriented thinking, and difficulty distinguishing between emotions and physical sensations. The results can provide valuable insights into emotional processing patterns, helping individuals better understand their emotional functioning and guiding professionals in offering appropriate support and interventions.",
-  "image": "https://prod-api.formdr.com/file/MzNQWRuvIcL3fib_hCZvaZduPZLWnHIr",
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-24.jpg?updatedAt=1747821587425",
   "category": "Psychology",
   "fields": [
     {
@@ -7993,7 +7993,7 @@ export  const template = [
   "form_link": "https://prod-api.formdr.com/montgomery-asberg-depression-rating-scale-(madrs)",
   "title": "Montgomery-Åsberg Depression Rating Scale (MADRS)",
   "description": "The Montgomery–Åsberg Depression Rating Scale (MADRS) is a clinician-administered tool used to assess the severity of depressive symptoms in individuals diagnosed with mood disorders. It consists of 10 items that evaluate core symptoms of depression such as sadness, anxiety, sleep disturbances, concentration difficulties, and suicidal thoughts. Each item is rated on a scale from 0 to 6, based on symptom intensity and impact. The MADRS is widely used in clinical and research settings for evaluating treatment response and tracking changes in depressive symptoms over time.",
-  "image": "https://prod-api.formdr.com/file/afzqAJ5beivAS34j5CTQkSBIc-DUaoPG",
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-25.jpg?updatedAt=1747821585668",
   "category": "Psychology",
   "fields": [
     {
@@ -8174,7 +8174,7 @@ export  const template = [
   "form_link": "https://prod-api.formdr.com/autism-spectrum-disorder-treatment-plan",
   "title": "Autism Spectrum Disorder Treatment Plan",
   "description": "This comprehensive treatment plan template is intended for use by professionals working with individuals diagnosed with ASD. It provides a structured framework for setting clinical goals, implementing evidence-based interventions, and monitoring progress across domains such as communication, behavior regulation, sensory integration, and adaptive functioning. The template promotes interdisciplinary collaboration and individualized care planning to ensure effective, person-centered support.",
-  "image": "https://prod-api.formdr.com/file/o0SPdHcg4FvwusJlXJb2jDz11a2BtKiC",
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-26.jpg?updatedAt=1747821585735",
   "category": "Psychology",
   "fields": [
     {
@@ -8313,7 +8313,7 @@ export  const template = [
   "form_link": "https://prod-api.formdr.com/childhood-trauma-questionnaire",
   "title": "Childhood Trauma Questionnaire",
   "description": "This structured, evidence-based template is designed for professionals to assess a client’s early life experiences across key domains such as emotional, physical, and sexual abuse, as well as emotional and physical neglect. The CTQ provides valuable insights to guide diagnosis, treatment planning, and therapeutic interventions. It is a reliable, validated tool that supports trauma-informed care and enhances clinical understanding of developmental and psychological impacts.",
-  "image": "https://prod-api.formdr.com/file/XZkn-6XQM6ACGVUn9QkKGgWIgDZoka9l",
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-27.jpg?updatedAt=1747821587181",
   "category": "Psychology",
   "fields": [
     {
@@ -8806,7 +8806,7 @@ export  const template = [
   "form_link": "https://prod-api.formdr.com/psychological-questionnaires",
   "title": "Psychological Questionnaires",
   "description": "This section comprises a selection of rigorously validated psychological questionnaires designed to assess a wide range of mental health domains, including cognitive functioning, emotional regulation, personality traits, and behavioral patterns. These instruments serve as essential tools for mental health professionals, enabling structured evaluation of psychological conditions and supporting the development of comprehensive clinical formulations.",
-  "image": "https://prod-api.formdr.com/file/jE9VJ1F3X_A1A9R2rISCtSeyqiqB_uvo",
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-28.jpg?updatedAt=1747821587770",
   "category": "Psychology",
   "fields": [
     {
@@ -9009,7 +9009,7 @@ export  const template = [
   "form_link": "https://prod-api.formdr.com/borderline-personality-disorder",
   "title": "Borderline Personality Disorder Treatment Plan",
   "description": "This screening instrument evaluates the core diagnostic features of Borderline Personality Disorder as outlined in the DSM criteria. It is particularly useful for identifying emotional instability, impulsivity, interpersonal challenges, and identity disturbances in both clinical and subclinical populations. Its use supports early detection and facilitates the development of targeted therapeutic approaches such as Dialectical Behavior Therapy (DBT) or Schema Therapy.",
-  "image": "https://prod-api.formdr.com/file/U7LZSrJOa4FhhparNx4Pth5fUtP2dOH7",
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-29.jpg?updatedAt=1747821595342",
   "category": "Psychology",
   "fields": [
     {
@@ -9124,7 +9124,7 @@ export  const template = [
   "form_link": "https://prod-api.formdr.com/adult-adhd-self-report-scale-(asrs-v1.1)",
   "title": "Adult ADHD Self-Report Scale (ASRS-v1.1) Symptom Checklist",
   "description": "The Symptom Checklist is an instrument consisting of the eighteen DSM-IV-TR criteria. Six of the eighteen questions were found to be the most predictive of symptoms consistent with ADHD. Please answer the questions below, rating yourself on each of the criteria shown, considering how you have felt and conducted yourself over the past 6 months.",
-  "image": "https://prod-api.formdr.com/file/x2BliGfQHLKlRwWass9nbc9giLCn_LOr",
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-30.jpg?updatedAt=1747821597292",
   "category": "Psychiatry",
   "fields": [
     {
@@ -9311,7 +9311,7 @@ export  const template = [
   "form_link": "https://prod-api.formdr.com/psychiatry-intake-form-packet",
   "title": "Psychiatry Intake Form Packet",
   "description": "This is a complete packet to collect psychiatry information from patients, including demographic details, reasons for seeking care, medical and psychiatric history, medication details, substance use history, and consent for privacy practices under HIPAA.",
-  "image": "https://prod-api.formdr.com/file/njcB87uYPZoNlO64Y9fOyyO7QjTsdbKw",
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-31.jpg?updatedAt=1747821599084",
   "category": "Psychiatry",
   "fields": [
     {
@@ -9722,7 +9722,7 @@ export  const template = [
   "form_link": "https://prod-api.formdr.com/nichq-vanderbilt-assessment-scale-for-teachers",
   "title": "NICHQ Vanderbilt Assessment Scale for Teachers",
   "description": "The NICHQ Vanderbilt Assessment Scale for Teachers is used to help diagnose ADHD in children aged 6–12 by evaluating behaviors and academic performance since the beginning of the school year, as observed by teachers. It includes demographic information, symptom ratings, performance evaluations, and administrative fields for scoring and submission.",
-  "image": "https://prod-api.formdr.com/file/doKQ_vgHArduLHEYeaeKJts-vPVUOp6z",
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-32.jpg?updatedAt=1747821599092",
   "category": "Psychiatry",
   "fields": [
     {
@@ -10229,7 +10229,7 @@ export  const template = [
   "form_link": "https://prod-api.formdr.com/edinburgh-postnatal-depression-scale-(epds)",
   "title": "Edinburgh Postnatal Depression Scale (EPDS)",
   "description": "The Edinburgh Postnatal Depression Scale (EPDS) is a 10-item screening tool to identify mothers at risk for perinatal depression, assessing feelings over the past 7 days. It includes demographic information, symptom ratings, and scoring fields for clinical use. Mothers scoring above 13 may be experiencing depressive illness, but clinical judgment is required for diagnosis.",
-  "image": "https://prod-api.formdr.com/file/kOoPWlbsLuIt2aCMJmWqxLbYL3iPgYHC",
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-33.jpg?updatedAt=1747821596651",
   "category": "Psychiatry",
   "fields": [
     {
@@ -10392,7 +10392,7 @@ export  const template = [
   "form_link": "https://prod-api.formdr.com/dsm-5-self-rated-level-1-cross-cutting-symptom-measure-adult",
   "title": "DSM-5 Self-Rated Level 1 Cross-Cutting Symptom Measure-Adult",
   "description": "The DSM-5 Self-Rated Level 1 Cross-Cutting Symptom Measure-Adult is a self- or informant-rated tool to screen for mental health symptoms across psychiatric diagnoses, assessing symptoms over the past two weeks. It includes demographic information, informant details (if applicable), 23 symptom questions, and a signature for patient/client verification.",
-  "image": "https://prod-api.formdr.com/file/-oxiknS8uk2ev8Spoh5EBtQ510HSOEJb",
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-34.jpg?updatedAt=1747821598014",
   "category": "Psychiatry",
   "fields": [
     {
@@ -10635,7 +10635,7 @@ export  const template = [
   "form_link": "https://prod-api.formdr.com/scared---child",
   "title": "SCARED - Child Version",
   "description": "The SCARED is a child self-report instrument used to screen for childhood anxiety disorders including general anxiety disorder, separation anxiety disorder, panic disorder and social phobia.",
-  "image": "https://prod-api.formdr.com/file/XVVtMhoRCGjedQv-S5yRJIm4NM5PPUfq",
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-35.jpg?updatedAt=1747821598825",
   "category": "Psychiatry",
   "fields": [
     {
@@ -11170,7 +11170,7 @@ export  const template = [
   "form_link": "https://prod-api.formdr.com/aims-(abnormal-involuntary-movement-scale)",
   "title": "AIMS (Abnormal Involuntary Movement Scale)",
   "description": "The Abnormal Involuntary Movement Scale (AIMS) is a rating scale that was designed to measure involuntary movements known as tardive dyskinesia (TD), a disorder that sometimes develops as a side effect of long-term treatment with neuroleptic (antipsychotic) medications.",
-  "image": "https://prod-api.formdr.com/file/_E2Zj3qzoRZsL5EE7ZCp4nH_zTJhMX6K",
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-36.jpg?updatedAt=1747821597084",
   "category": "Psychiatry",
   "fields": [
     {
@@ -11401,7 +11401,7 @@ export  const template = [
   "form_link": "",
   "title": "Staying Healthy Assessment 7-12 Months",
   "description": "7-12 Months - The Staying Healthy Assessment (SHA) is the Department of Health Care Services' (DHCS's) Individual Health Education Behavior Assessment (IHEBA).",
-  "image": null,
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-37.jpg?updatedAt=1747821598432",
   "category": "Psychiatry",
   "fields": [
     {
@@ -11914,7 +11914,7 @@ export  const template = [
   "form_link": "",
   "title": "Staying Healthy Assessment 1-2 Years",
   "description": "1-2 Years - The Staying Healthy Assessment (SHA) is the Department of Health Care Services' (DHCS's) Individual Health Education Behavior Assessment (IHEBA).",
-  "image": null,
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-38.jpg?updatedAt=1747821599085",
   "category": "Psychiatry",
   "fields": [
     {
@@ -12565,7 +12565,7 @@ export  const template = [
   "form_link": "",
   "title": "Staying Healthy Assessment 3-4 Years",
   "description": "3-4 Years - The Staying Healthy Assessment (SHA) is the Department of Health Care Services' (DHCS's) Individual Health Education Behavior Assessment (IHEBA).",
-  "image": null,
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-39.jpg?updatedAt=1747821600910",
   "category": "Psychiatry",
   "fields": [
     {
@@ -13126,7 +13126,7 @@ export  const template = [
   "form_link": "", // No file link provided, leaving empty
   "title": "Staying Healthy Assessment (0-6 Months)",
   "description": "The Staying Healthy Assessment (SHA) is the Department of Health Care Services' (DHCS's) Individual Health Education Behavior Assessment (IHEBA) for infants aged 0-6 months.",
-  "image": null, // No templateLogo provided
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-40.jpg?updatedAt=1747821602128", // No templateLogo provided
   "category": "Psychiatry",
   "fields": [
     // Patient Information
@@ -13596,7 +13596,7 @@ export  const template = [
   "form_link": "",
   "title": "Staying Healthy Assessment (5-8 Years)",
   "description": "The Staying Healthy Assessment (SHA) is the Department of Health Care Services' (DHCS's) Individual Health Education Behavior Assessment (IHEBA) for children aged 5-8 years.",
-  "image": null,
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-41.jpg?updatedAt=1747821602766",
   "category": "Psychiatry",
   "fields": [
     // Patient Information
@@ -14207,7 +14207,7 @@ export  const template = [
   "form_link": "",
   "title": "Staying Healthy Assessment (5-8 Years)",
   "description": "The Staying Healthy Assessment (SHA) is the Department of Health Care Services' (DHCS's) Individual Health Education Behavior Assessment (IHEBA) for children aged 5-8 years.",
-  "image": null,
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-42.jpg?updatedAt=1747821602397",
   "category": "Psychiatry",
   "fields": [
     // Patient Information
@@ -14818,7 +14818,7 @@ export  const template = [
   "form_link": "https://prod-api.formdr.com/file/N0ZGZ1aNMMbIQnGympD2FIZSbfmldY6e", // Using templateLogo as the link
   "title": "Adolescent ADHD Self-Report Scale (ASRS-v1.1) Symptom Checklist",
   "description": "The Symptom Checklist is an instrument consisting of the eighteen DSM-IV-TR criteria. Six of the eighteen questions were found to be the most predictive of symptoms consistent with ADHD. Please answer the questions by rating yourself on each criterion over the past 6 months and provide the completed checklist to your healthcare professional.",
-  "image": "https://prod-api.formdr.com/file/N0ZGZ1aNMMbIQnGympD2FIZSbfmldY6e", // Using templateLogo
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-43.jpg?updatedAt=1747821602674", // Using templateLogo
   "category": "Psychiatry",
   "fields": [
     {
@@ -15054,7 +15054,7 @@ export  const template = [
   "form_link": "https://prod-api.formdr.com/file/N0ZGZ1aNMMbIQnGympD2FIZSbfmldY6e", // Using templateLogo as the link
   "title": "Adolescent ADHD Self-Report Scale (ASRS-v1.1) Symptom Checklist",
   "description": "The Symptom Checklist is an instrument consisting of the eighteen DSM-IV-TR criteria. Six of the eighteen questions were found to be the most predictive of symptoms consistent with ADHD. Please answer the questions by rating yourself on each criterion over the past 6 months and provide the completed checklist to your healthcare professional.",
-  "image": "https://prod-api.formdr.com/file/N0ZGZ1aNMMbIQnGympD2FIZSbfmldY6e", // Using templateLogo
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-44.jpg?updatedAt=1747821604690", // Using templateLogo
   "category": "Psychiatry",
   "fields": [
     {
@@ -15299,7 +15299,7 @@ export  const template = [
   "form_link": "https://prod-api.formdr.com/file/6cU1KMnkvHWVrMHYhNaT2oltX-mBLyZt",
   "title": "Ritvo Autism Asperger Diagnostic Scale–Revised Test (RAADS–R Test)",
   "description": "The RAADS–R Test is a diagnostic tool used to assess autism spectrum disorder (ASD) in adults, particularly for those who may have been missed during childhood evaluations or are seeking a diagnosis later in life. Please answer the questions by selecting the option that best describes your experiences, then provide the completed test to your healthcare professional.",
-  "image": "https://prod-api.formdr.com/file/6cU1KMnkvHWVrMHYhNaT2oltX-mBLyZt",
+  "image": "https://res.cloudinary.com/dshn2s0tc/image/upload/v1747824843/healthcare-form-45_cpfjw0.jpg",
   "category": "Psychiatry",
   "fields": [
     {
@@ -16093,7 +16093,7 @@ export  const template = [
   "form_link": "https://prod-api.formdr.com/file/yrcwhCrqi-LNJDLMDA6er_wZxLajKlmr",
   "title": "Hamilton Anxiety Rating Scale (HAM-A)",
   "description": "The Hamilton Anxiety Rating Scale (HAM-A) is a clinical tool to assess the severity of anxiety symptoms in individuals, particularly those with generalized anxiety disorder (GAD) or other anxiety-related conditions. Clinicians should rate the patient’s symptoms by selecting the response that best describes their condition for each item. Provide the completed form to your healthcare professional.",
-  "image": "https://prod-api.formdr.com/file/yrcwhCrqi-LNJDLMDA6er_wZxLajKlmr",
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-46.jpg?updatedAt=1747821604003",
   "category": "Psychiatry",
   "fields": [
     {
@@ -16302,7 +16302,7 @@ export  const template = [
   "form_link": "https://prod-api.formdr.com/file/Sdj9fcgTNhTOCY621jimuZiIN8KVy_lf",
   "title": "Young Mania Rating Scale (YMRS)",
   "description": "The Young Mania Rating Scale (YMRS) assesses the severity of manic symptoms in individuals with or suspected of having Bipolar Disorder. Clinicians should rate the patient’s symptoms based on observation and interview, using the provided scale. Provide the completed form to your healthcare professional.",
-  "image": "https://prod-api.formdr.com/file/Sdj9fcgTNhTOCY621jimuZiIN8KVy_lf",
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-47.jpg?updatedAt=1747821605448",
   "category": "Psychiatry",
   "fields": [
     {
@@ -16687,7 +16687,7 @@ export  const template = [
   "form_link": "https://prod-api.formdr.com/file/akOSbo9oOEgU2SifFCIfLgqCGBkncu21",
   "title": "Major Depressive Disorder Treatment Plan",
   "description": "This template provides a structured framework for developing an individualized treatment plan for patients diagnosed with Major Depressive Disorder. It includes assessment findings, treatment goals, interventions, medication management, and progress monitoring to support recovery. Complete the form in collaboration with the patient and provide it to your healthcare professional.",
-  "image": "https://prod-api.formdr.com/file/akOSbo9oOEgU2SifFCIfLgqCGBkncu21",
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-48.jpg?updatedAt=1747821604971",
   "category": "Psychiatry",
   "fields": [
     {
@@ -16851,7 +16851,7 @@ export  const template = [
   "form_link": "https://prod-api.formdr.com/file/_asGZmIIE6F-5PmPDeVrZ2CPeQN0QnVf",
   "title": "Dementia Severity Rating Scale (DSRS)",
   "description": "The Dementia Severity Rating Scale (DSRS) is a caregiver-completed tool to assess functional impairment in individuals with dementia across 12 areas of daily living and cognitive function. Caregivers should select the option that most closely applies to the participant’s condition. Provide the completed form to your healthcare professional.",
-  "image": "https://prod-api.formdr.com/file/_asGZmIIE6F-5PmPDeVrZ2CPeQN0QnVf",
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-49.jpg?updatedAt=1747821605671",
   "category": "Psychiatry",
   "fields": [
     {
@@ -17169,7 +17169,7 @@ export  const template = [
   "form_link": "https://prod-api.formdr.com/file/wRQrz6fNtcJxx5tvtGdG2x_-42q1S9TC",
   "title": "Insurance Form",
   "description": "This form collects insurance information from patients, including details about primary and secondary insurance policies and policyholders. Complete all required fields and upload images of the insurance card(s) as needed. Submit the form to your healthcare provider.",
-  "image": "https://prod-api.formdr.com/file/wRQrz6fNtcJxx5tvtGdG2x_-42q1S9TC",
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-50.jpg?updatedAt=1747821606026",
   "category": "Insurance",
   "fields": [
     {
@@ -17405,7 +17405,7 @@ export  const template = [
   "form_link": "https://prod-api.formdr.com/file/AMMwjU8sLV38mPKs3ETYdBMup6zFSUz8",
   "title": "Medical History Form",
   "description": "This form collects detailed information about a patient’s health, including allergies, illnesses, surgeries, medications, and health habits. Complete all sections accurately and submit to your healthcare provider to assist in determining appropriate treatment.",
-  "image": "https://prod-api.formdr.com/file/AMMwjU8sLV38mPKs3ETYdBMup6zFSUz8",
+  "image": "https://res.cloudinary.com/dshn2s0tc/image/upload/v1747824842/healthcare-form-51_lwrgkb.jpg",
   "category": "Internal Medicine",
   "fields": [
     {
@@ -18451,7 +18451,7 @@ export  const template = [
   "form_link": "", // No file link provided, leaving empty
   "title": "Chiropractic Intake Form Packet",
   "description": "A comprehensive form to collect patient demographic, medical, insurance, and consent information for chiropractic care.",
-  "image": "https://prod-api.formdr.com/file/T_W-OF9n423L904x8FEwbJQo1v8W5mTC",
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/52.jpg?updatedAt=1747825303219",
   "category": "Chiropractor",
   "fields": [
     // Section 1: Chiropractic Intake Form Packet
@@ -20035,7 +20035,7 @@ export  const template = [
   "form_link": "", // No file link provided, leaving empty
   "title": "Beck Anxiety Inventory (BAI)",
   "description": "The Beck Anxiety Inventory (BAI) is a 21-item self-report inventory used to assess anxiety levels in adults and adolescents. Indicate how much you have been bothered by each symptom during the past month, including today.",
-  "image": "https://prod-api.formdr.com/file/IZRdn3QxqEDsB1W0ohu7gvEG4hD6LynO",
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-53.jpg?updatedAt=1747821607521",
   "category": "Chiropractor",
   "fields": [
     // Patient Information
@@ -20406,7 +20406,7 @@ export  const template = [
   "form_link": "", // No file link provided, leaving empty
   "title": "Neck Pain Disability Index Questionnaire",
   "description": "This questionnaire is designed to understand how much your neck pain has affected your ability to manage everyday activities. Please select the one choice that most applies to you for each section.",
-  "image": "https://prod-api.formdr.com/file/7rM_7ZPU7yq30TC9iAqCoN_JvxkbS0Pj",
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-54.jpg?updatedAt=1747821607221",
   "category": "Chiropractor",
   "type": "Screening Forms",
   "fields": [
@@ -20617,7 +20617,7 @@ export  const template = [
   "form_link": "", // No file link provided, leaving empty
   "title": "Lower Extremity Functional Scale (LEFS)",
   "description": "This questionnaire assesses difficulty with activities due to lower limb problems. Please provide an answer for each activity, indicating the level of difficulty you experience today.",
-  "image": "https://prod-api.formdr.com/file/iTK60TcZ_SQf0hMRMin3Z3avEKUrbjB7",
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/healthcare-form-55.jpg?updatedAt=1747821608110",
   "category": "Chiropractor",
   "type": "Screening Forms",
   "fields": [
@@ -21014,7 +21014,7 @@ export  const template = [
   "form_link": "",
   "title": "Massage Therapy Forms Packet",
   "description": "This form collects personal, medical, and massage therapy information to assess and provide appropriate massage services. It includes consent and acknowledgment of privacy practices.",
-  "image": "https://prod-api.formdr.com/file/eTenjQrCAK7Zt0YhYbXkQbk6oArqfat3",
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/56-new.png?updatedAt=1747825569565",
   "category": "Massage Therapist",
   "type": "Registration Forms",
   "fields": [
