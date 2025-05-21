@@ -21644,7 +21644,7 @@ export  const template = [
   "form_link": "",
   "title": "Disabilities of the Arm, Shoulder and Hand (DASH)",
   "description": "This questionnaire assesses disability and symptoms in your arm, shoulder, or hand. Please rate your ability to perform each activity or the severity of symptoms based on your condition today.",
-  "image": "https://prod-api.formdr.com/file/HdSeiA9VQF9wg2Ln5RK2FSyAFsm8vsfE",
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/chiropractor/chiropractor-form-5.png?updatedAt=1747841376588",
   "category": "Chiropractor",
   "type": "Screening Forms",
   "fields": [
@@ -22189,7 +22189,7 @@ export  const template = [
   "form_link": "",
   "title": "Dr. Chrono Template",
   "description": "This chiropractic intake form collects patient demographic, contact, emergency, employment, and insurance information for integration with Dr. Chrono.",
-  "image": null,
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/chiropractor/chiropractor-form-6.png?updatedAt=1747841376915",
   "category": "Chiropractor",
   "type": "Single Form",
   "fields": [
@@ -22595,7 +22595,7 @@ export  const template = [
   "form_link": "",
   "title": "Upper Extremity Functional Index (UEFI)",
   "description": "This questionnaire assesses functional impairment in your upper limb due to musculoskeletal dysfunction. Please rate the difficulty of each activity based on your condition today (0 - Extreme Difficulty or Unable to Perform Activity, 1 - Quite a Bit of Difficulty, 2 - Moderate Difficulty, 3 - A Little Bit of Difficulty, 4 - No Difficulty).",
-  "image": "https://prod-api.formdr.com/file/KILjttgdGx8pxDyGygNoTNfp-CAJKcdq",
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/chiropractor/chiropractor-form-7.png?updatedAt=1747841375758",
   "category": "Chiropractor",
   "type": "Screening Forms",
   "fields": [
@@ -22955,7 +22955,7 @@ export  const template = [
   "form_link": "",
   "title": "Counseling Intake Form Packet",
   "description": "This intake assessment collects patient demographic, contact, insurance, mental health history, and screening information (GAD-7, PHQ-9) to determine well-being and treatment options for mental health counseling. It includes privacy practices and consent agreements.",
-  "image": "https://prod-api.formdr.com/file/KZtk6V7XZu14dW2ZcHK1uqsbp9QqXArA",
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/counselor/counselor-from-1-part-2.png?updatedAt=1747841560325",
   "category": "Counselor",
   "type": "Registration Forms",
   "fields": [
@@ -24136,7 +24136,7 @@ export  const template = [
   "form_link": "",
   "title": "Burns Depression Checklist (Brief Version)",
   "description": "Dr. Burns Depression Checklist (BDC) is a reliable mood-measuring device that detects the presence of depression and accurately rates its severity. This form also includes the Burns Anxiety Inventory and Relationship Satisfaction Scale to assess anxiety and relationship satisfaction. Anyone with suicidal urges should seek help from a mental health professional.",
-  "image": "https://prod-api.formdr.com/file/cWOWBe2chAROvYafFT6xHjmm1_IyxqAp",
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/counselor/counselor-from-3.png?updatedAt=1747841560359",
   "category": "Counselor",
   "type": "Screening Forms",
   "fields": [
@@ -24371,7 +24371,7 @@ export  const template = [
   "form_link": "",
   "title": "Mood Disorder Screening",
   "description": "The Mood Disorder Questionnaire (MDQ) is a screening instrument for bipolar spectrum disorder. Please answer each question to the best of your ability. This instrument is designed for screening purposes only and is not to be used as a diagnostic tool.",
-  "image": "https://prod-api.formdr.com/file/uQL7jN_Zw0JCjHo87EiNnGa3T5Hg-x1g",
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/counselor/counselor-from-4.png?updatedAt=1747841560311",
   "category": "Counselor",
   "type": "Screening Forms",
   "fields": [
@@ -24569,7 +24569,7 @@ export  const template = [
   "form_link": "",
   "title": "Patient Health Questionnaire - 9 (PHQ-9)",
   "description": "The Patient Health Questionnaire-9 (PHQ-9) is a self-rating scale for screening and assessing depression, covering the DSM-IV algorithm for major depression. Over the last 2 weeks, how often have you been bothered by the following problems?",
-  "image": "https://prod-api.formdr.com/file/WPiX69oFH0WxiVsBOuqZLyuYa-HuFj1v",
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/counselor/counselor-from-4.png?updatedAt=1747841560311",
   "category": "Counselor",
   "type": "Screening Forms",
   "fields": [
@@ -24720,7 +24720,7 @@ export  const template = [
   "form_link": "",
   "title": "Counseling Referral Form",
   "description": "The Counseling Referral Form captures essential details for referring a client to another counselor, including information about the referring counselor, the client, and the referred clinician, ensuring accurate record-keeping and seamless communication during the referral process.",
-  "image": "https://prod-api.formdr.com/file/4qd1NsO55tkWDbqX9ubpfjKQxEXh_EpZ",
+  "image": "https://ik.imagekit.io/onaunzzrl/formlyze/counselor/counselor-from-5.png?updatedAt=1747841560348",
   "category": "Counselor",
   "type": "Single Form",
   "fields": [

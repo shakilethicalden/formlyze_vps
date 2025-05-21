@@ -92,7 +92,7 @@ const SidebarContent = () => {
             icon: <HiTemplate className="text-lg" />,
             submenu: [
                 {
-                    menuName: 'Health Care',
+                    menuName: 'Home Health Care',
                     link: '/classic-form?category=all',
                     icon: <MdFormatListBulleted className="text-sm" />
                 },
